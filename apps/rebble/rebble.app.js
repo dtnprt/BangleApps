@@ -183,12 +183,11 @@ Graphics.prototype.setFontKdamThmor = function(scale) {
     let mm=require("date_utils").month(date.getMonth()+1,1).toUpperCase();
 
 
-    drawBattery(w2 + (w-w2-wb)/2,  h/10, wb, 17);
-
-    setTextColor();
-    g.setFont('Vector', 20);
+    // steps
+    g.drawImage(boot_img, w2 + (ws - 64)/2, h/2, { scale: 1 });
+    setSmallFont();
     g.setFontAlign(0, -1);
-    g.drawString(E.getBattery() + '%', w3,  (h/10) + 17 + 7);
+    g.drawString(formatSteps(), w3,  (h/10) + 17 + 7);
 
     drawDateAndCalendar(w3, h/2, dy, dd, mm);
   }

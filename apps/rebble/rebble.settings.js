@@ -2,7 +2,7 @@
   const SETTINGS_FILE = "rebble.json";
 
   // initialize with default settings...
-  let localSettings = {'bg': 'rgb(208, 255, 0)', 'color': 'Yellow', 'autoCycle': true, 'fullScreen': true, 'sideTap':0};
+  let localSettings = {'bg': '#ccff33', 'color': 'Yellow', 'autoCycle': true, 'fullScreen': true, 'sideTap':0};
   //sideTap 0 = on| 1= sideBar1 | 2 = ...
 
   // ...and overwrite them with any saved values
@@ -21,7 +21,7 @@
   }
 
   let color_options = ['Green','Yellow', 'Orange','Cyan','Purple','Red','Blue'];
-  let bg_code = ['#0f0','rgb(208, 255, 0)','#ff0','#0ff','#f0f','#f00','#00f'];
+  let bg_code = ['#0f0','#ccff33','#ff0','#0ff','#f0f','#f00','#00f'];
   
   function showMenu()
   {
