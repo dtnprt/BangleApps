@@ -2,7 +2,7 @@
   "id": "rebble_mod",
   "name": "Rebble Clock Mod",
   "shortName": "RebbleMod",
-  "version": "0.20",
+  "version": "0.21",
   "author": "Espruino",
   "description": "A Pebble style clock, with configurable background, three sidebars including steps, day, date, sunrise, sunset, long live the rebellion",
   "readme": "README.md",
