@@ -2,7 +2,7 @@
   const SETTINGS_FILE = "rebble.json";
 
   // initialize with default settings...
-  let localSettings = {'bg': '#0f0', 'color': 'Green', 'autoCycle': true, 'fullScreen': true, 'sideTap':0};
+  let localSettings = {'bg': 'rgb(208, 255, 0)', 'color': 'Yellow', 'autoCycle': true, 'fullScreen': true, 'sideTap':0};
   //sideTap 0 = on| 1= sideBar1 | 2 = ...
 
   // ...and overwrite them with any saved values
@@ -26,7 +26,7 @@
   function showMenu()
   {
     const menu={
-      '': { 'title': 'Rebble Clock' },
+      '': { 'title': 'Rebble Mod' },
       '< Back': back,
       'Colour': {
         value: 0 | color_options.indexOf(localSettings.color),
